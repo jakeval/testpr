@@ -12,3 +12,4 @@ def baz(z, w):
 
 if __name__ == "__main__":
     print(baz(foo(1), bar(4)))
+    print(foo(baz(bar(10), 3)))
