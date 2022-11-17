@@ -3,8 +3,12 @@ def foo(x):
 
 
 def bar(y):
-    return y + 20
+    return y + 25
+
+
+def baz(z, w):
+    return z * w
 
 
 if __name__ == "__main__":
-    print(foo(1) * bar(4))
+    print(baz(foo(1), bar(4)))
